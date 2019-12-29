@@ -14,6 +14,7 @@ public class MagicGithubApplication extends Application {
     // ---
 
     public UserRepository getUserRepository() {
+        System.out.println("blabla1");
         if (userRepository == null) userRepository = Injection.createUserRepository();
         return userRepository;
     }
