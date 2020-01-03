@@ -14,7 +14,8 @@ public class UserRepository {
         this.apiService = apiService;
     }
 
-    public List<User> getUsers() {
+    public List<User> getUsers()
+    {
         return apiService.getUsers();
     }
 
